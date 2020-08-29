@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: $primary-bg-color;
+  font-family: Roboto, sans-serif;
+  font-size: 16 px;
+  line-height: 0, 615;
+}
+li {
+  display: list-item;
+}
+.layout {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+div .list-list {
+  margin-top: 50px;
+}
+.flex-box .list {
+  display: flex;
+}
+.flexbox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

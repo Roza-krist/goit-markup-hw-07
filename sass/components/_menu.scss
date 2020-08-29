@@ -1,0 +1,51 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.site-nav {
+  position: relative;
+
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.site-nav a {
+  color: $primary-text-color;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+.site-nav .link {
+  text-decoration-line: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  transition-property: color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    transition: color 250ms $transition-bezier;
+  }
+}
+
+.link-active::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+
+  display: block;
+  width: 48px;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+
+  background: #2196f3;
+  border-radius: 2px;
+}
+.site-nav .link.current {
+  color: $accent-color;
+}

@@ -1,0 +1,139 @@
+a.item {
+  margin: 0 0 9px 0;
+  color: $primary-bg-color;
+  font-style: normal;
+}
+.site-footer {
+  background-color: #2f303a;
+  padding: 60px 0;
+}
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.logo-position {
+  display: block;
+  padding: 0;
+  margin: 0 0 20px;
+  color: $accent-color;
+}
+.logo-address {
+  align-content: flex-start;
+}
+.address .item {
+  color: $primary-bg-color !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+}
+.address .list .item {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration-line: none;
+  background-color: #2f303a;
+  font-style: normal;
+}
+.address-section a {
+  text-decoration-line: none;
+}
+.address-section .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.contact-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+.join-title {
+  color: $primary-bg-color;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.join-list {
+  display: flex;
+  justify-content: center;
+
+  &-item:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.join-list-item:hover,
+.join-list-item:focus {
+  background-color: $accent-color;
+  border-radius: 50%;
+  transition: background-color 250ms $transition-bezier;
+}
+.join-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition-property: background-color;
+}
+
+.link-icon-footer {
+  fill: $primary-bg-color;
+}
+.subscribe {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+
+  &-title {
+    color: $primary-bg-color;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}
+.mailing .subscribe-btn {
+  min-width: 200px;
+  height: 50px;
+  background-color: $accent-color;
+  color: $primary-bg-color;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+  margin-left: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.icon-plane {
+  fill: $primary-bg-color;
+  margin-left: 10px;
+}
+.mail-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: inherit;
+}
